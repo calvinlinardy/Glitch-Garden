@@ -41,8 +41,14 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: Player
+  - name: Defender
+    uniqueID: 3490796123
+    locked: 0
+  - name: Attacker
     uniqueID: 2982926551
+    locked: 0
+  - name: Bullet
+    uniqueID: 3746814795
     locked: 0
   - name: Tree
     uniqueID: 1724247997
