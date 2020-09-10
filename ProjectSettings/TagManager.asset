@@ -47,7 +47,7 @@ TagManager:
   - name: Attacker
     uniqueID: 2982926551
     locked: 0
-  - name: Bullet
+  - name: Projectile
     uniqueID: 3746814795
     locked: 0
   - name: Tree
