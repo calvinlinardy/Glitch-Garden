@@ -32,6 +32,10 @@ public class DefenderSpawner : MonoBehaviour
 
     private void SpawnDefender(Vector2 snappedPos)
     {
+        if (!defender)
+        {
+            return;
+        }
         Defender newDefender = Instantiate(defender, snappedPos, transform.rotation) as Defender;
     }
 }
