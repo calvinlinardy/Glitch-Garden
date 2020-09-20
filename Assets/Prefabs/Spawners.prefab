@@ -47,6 +47,12 @@ PrefabInstance:
       propertyPath: m_Name
       value: Spawner (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 1162758849400450992, guid: 1391b307aaf8212419fc18b22c7e9458,
+        type: 3}
+      propertyPath: m_Icon
+      value: 
+      objectReference: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000,
+        type: 0}
     - target: {fileID: 1162758849400450994, guid: 1391b307aaf8212419fc18b22c7e9458,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -122,6 +128,12 @@ PrefabInstance:
       propertyPath: m_Name
       value: Spawner (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 1162758849400450992, guid: 1391b307aaf8212419fc18b22c7e9458,
+        type: 3}
+      propertyPath: m_Icon
+      value: 
+      objectReference: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000,
+        type: 0}
     - target: {fileID: 1162758849400450994, guid: 1391b307aaf8212419fc18b22c7e9458,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -197,6 +209,12 @@ PrefabInstance:
       propertyPath: m_Name
       value: Spawner (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 1162758849400450992, guid: 1391b307aaf8212419fc18b22c7e9458,
+        type: 3}
+      propertyPath: m_Icon
+      value: 
+      objectReference: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000,
+        type: 0}
     - target: {fileID: 1162758849400450994, guid: 1391b307aaf8212419fc18b22c7e9458,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -272,6 +290,12 @@ PrefabInstance:
       propertyPath: m_Name
       value: Spawner (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1162758849400450992, guid: 1391b307aaf8212419fc18b22c7e9458,
+        type: 3}
+      propertyPath: m_Icon
+      value: 
+      objectReference: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000,
+        type: 0}
     - target: {fileID: 1162758849400450994, guid: 1391b307aaf8212419fc18b22c7e9458,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -347,6 +371,12 @@ PrefabInstance:
       propertyPath: m_Name
       value: Spawner (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1162758849400450992, guid: 1391b307aaf8212419fc18b22c7e9458,
+        type: 3}
+      propertyPath: m_Icon
+      value: 
+      objectReference: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000,
+        type: 0}
     - target: {fileID: 1162758849400450994, guid: 1391b307aaf8212419fc18b22c7e9458,
         type: 3}
       propertyPath: m_LocalPosition.x
