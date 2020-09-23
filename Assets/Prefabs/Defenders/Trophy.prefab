@@ -25,8 +25,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 702736628}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.001, y: -0.068, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 0.005, y: -0.068, z: 0}
+  m_LocalScale: {x: 0.20448473, y: 0.20448473, z: 0.20448473}
   m_Children: []
   m_Father: {fileID: 3456882026348555596}
   m_RootOrder: 2
@@ -92,6 +92,7 @@ GameObject:
   - component: {fileID: 3456882026348555596}
   - component: {fileID: 3456882026348555597}
   - component: {fileID: -6312789247926306354}
+  - component: {fileID: 648663015}
   m_Layer: 0
   m_Name: Trophy
   m_TagString: Untagged
@@ -147,7 +148,33 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad1e262761c64804795308eca9ded04f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  starCost: 20
+  starCost: 100
+--- !u!61 &648663015
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3456882026348555587}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &3456882026800229462
 GameObject:
   m_ObjectHideFlags: 0
