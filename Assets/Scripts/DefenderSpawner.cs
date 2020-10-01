@@ -18,6 +18,8 @@ public class DefenderSpawner : MonoBehaviour
     private void AttemptToPlaceDefenderAt(Vector2 gridPos)
     {
         var starDisplay = FindObjectOfType<StarDisplay>();
+        if (!defender)
+        { return; }
         int defenderCost = defender.GetStarCost();
         if (starDisplay.HaveEnoughStars(defenderCost))
         {

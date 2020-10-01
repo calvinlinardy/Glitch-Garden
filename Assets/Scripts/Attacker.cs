@@ -32,7 +32,7 @@ public class Attacker : MonoBehaviour
     {
         currentSpeed = speed;
     }
-
+    
     public void Attack(GameObject target)
     {
         GetComponent<Animator>().SetBool("IsAttacking", true);
