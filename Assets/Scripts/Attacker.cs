@@ -24,7 +24,7 @@ public class Attacker : MonoBehaviour
     {
         if (!currentTarget)
         {
-            GetComponent<Animator>().SetBool("IsAttacking", false) ;
+            GetComponent<Animator>().SetBool("IsAttacking", false);
         }
     }
 
