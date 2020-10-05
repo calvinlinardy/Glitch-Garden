@@ -17,14 +17,40 @@ public class LevelLoader : MonoBehaviour
         }
     }
 
+    public void RestartScene()
+    {
+        Time.timeScale = 1;
+        SceneManager.LoadScene(currentSceneIndex);
+    }
+
+    public void LoadMainMenu()
+    {
+        Time.timeScale = 1;
+        SceneManager.LoadScene("Start Screen");
+    }
+
     public void LoadNextScene()
     {
         SceneManager.LoadScene(currentSceneIndex + 1);
     }
 
+    public void LoadPreviousScene()
+    {
+        SceneManager.LoadScene(currentSceneIndex = 1);
+    }
     public void LoadGameOver()
     {
         SceneManager.LoadScene("Game Over");
+    }
+
+    public void LoadOptions()
+    {
+        SceneManager.LoadScene("Options Screen");
+    }
+    public void Quit()
+    {
+        Application.Quit();
+        Debug.Log("Quit Game");
     }
 
     IEnumerator WaitForSec()
