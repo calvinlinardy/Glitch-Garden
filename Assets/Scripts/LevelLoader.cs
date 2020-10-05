@@ -22,6 +22,11 @@ public class LevelLoader : MonoBehaviour
         SceneManager.LoadScene(currentSceneIndex + 1);
     }
 
+    public void LoadGameOver()
+    {
+        SceneManager.LoadScene("Game Over");
+    }
+
     IEnumerator WaitForSec()
     {
         yield return new WaitForSeconds(timeToWait);

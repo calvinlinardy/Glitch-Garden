@@ -770,6 +770,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: Level Compelete Canvas
       objectReference: {fileID: 0}
+    - target: {fileID: 1112761287497518400, guid: 1a2e67a0181c964418ef87877420586d,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2717303568420412383, guid: 1a2e67a0181c964418ef87877420586d,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 1121.6411
+      objectReference: {fileID: 0}
+    - target: {fileID: 2717303568420412383, guid: 1a2e67a0181c964418ef87877420586d,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 208.61865
+      objectReference: {fileID: 0}
+    - target: {fileID: 2717303568420412383, guid: 1a2e67a0181c964418ef87877420586d,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3934014718587090403, guid: 1a2e67a0181c964418ef87877420586d,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -874,6 +894,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7746942265967236788, guid: 1a2e67a0181c964418ef87877420586d,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 136
+      objectReference: {fileID: 0}
+    - target: {fileID: 7746942265967236788, guid: 1a2e67a0181c964418ef87877420586d,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 1121.6409
+      objectReference: {fileID: 0}
+    - target: {fileID: 7746942265967236788, guid: 1a2e67a0181c964418ef87877420586d,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 210.30768
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1a2e67a0181c964418ef87877420586d, type: 3}
@@ -1027,6 +1062,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Game Canvas
+      objectReference: {fileID: 0}
+    - target: {fileID: 4462464391142514658, guid: 565f66515e048b949ac27e7b74295b40,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 0.3539841
+      objectReference: {fileID: 0}
+    - target: {fileID: 4462464391142514658, guid: 565f66515e048b949ac27e7b74295b40,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 0.3066038
+      objectReference: {fileID: 0}
+    - target: {fileID: 4462464391142514658, guid: 565f66515e048b949ac27e7b74295b40,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 565f66515e048b949ac27e7b74295b40, type: 3}
