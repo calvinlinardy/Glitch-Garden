@@ -7,7 +7,7 @@ public class Test : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        PlayerPrefsController.SetMastervolume(0.4f);
+        PlayerPrefsController.SetMasterVolume(0.4f);
         Debug.Log(PlayerPrefsController.GetMasterVolume());
     }
 

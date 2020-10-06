@@ -24,6 +24,11 @@ public class LevelController : MonoBehaviour
     public void AttackerKilled()
     {
         numberOfAttackers--;
+    }
+
+    public void RoundWinCheck()
+    {
+        AttackerKilled();
         if (numberOfAttackers <= 0 && levelTimerFinished)
         {
             StartCoroutine(HandleWinCondition());
